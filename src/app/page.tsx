@@ -1,3 +1,9 @@
+import { Slide1 } from "@/components/Slide1";
+
 export default function Home() {
-    return <div>Головна сторінка</div>;
+    return (
+        <>
+            <Slide1 />
+        </>
+    );
 }
