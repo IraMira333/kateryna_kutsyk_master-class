@@ -11,6 +11,8 @@ const config: Config = {
             backgroundColor: {
                 accentBg: "var(--accent-bgcolor)",
                 primary: "var(--primary-bgcolor)",
+                button: "var(--button-bgcolor)",
+                shading: "#00000099",
             },
             fontFamily: {
                 noto: ["var(--font-noto)"],
@@ -23,6 +25,10 @@ const config: Config = {
                 secondary: "var(--secondary-text-color)",
                 darkText: "var(--dark-text-color)",
                 accentText: "var(--accent-text-color)",
+            },
+            listStyleType: {
+                none: "none",
+                disc: "disc",
             },
         },
     },
