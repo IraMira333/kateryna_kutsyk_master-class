@@ -16,19 +16,17 @@ const noto = Noto_Serif({
 
 const notoDisplay = Noto_Serif_Display({
     subsets: ["latin"],
-    weight: ["300", "400", "500"],
     variable: "--font-notoDisplay",
     display: "swap",
 });
 const openSans = Open_Sans({
     subsets: ["latin"],
-    weight: ["300", "500", "700"],
+    style: ["normal", "italic"],
     variable: "--font-openSans",
     display: "swap",
 });
 const montserrat = Montserrat({
     subsets: ["latin"],
-    weight: ["300", "500", "700"],
     variable: "--font-montserrat",
     display: "swap",
 });
