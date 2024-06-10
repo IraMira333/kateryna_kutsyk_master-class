@@ -11,12 +11,12 @@ export const Slide1 = () => {
                     Від аматора до професіонала
                 </h2>
 
-                <div className="my-auto">
+                <div className="my-auto w-[25%]">
                     <Image
-                        src="/cameraRight.png"
+                        src="/cameraSmall.png"
                         alt="Camera small"
-                        width={39}
-                        height={45}
+                        width={370}
+                        height={455}
                     />
                 </div>
             </div>
