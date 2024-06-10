@@ -7,7 +7,24 @@ const config: Config = {
         "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            backgroundColor: {
+                accentBg: "var(--accent-bgcolor)",
+                primary: "var(--primary-bgcolor)",
+            },
+            fontFamily: {
+                noto: ["var(--font-noto)"],
+                notoDisplay: ["var(--font-notoDisplay)"],
+                openSans: ["var(--font-openSans)"],
+                montserrat: ["var(--font-montserrat)"],
+            },
+            colors: {
+                primary: "var(--primary-text-color)",
+                secondary: "var(--secondary-text-color)",
+                darkText: "var(--dark-text-color)",
+                accentText: "var(--accent-text-color)",
+            },
+        },
     },
     plugins: [],
 };
