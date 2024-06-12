@@ -4,13 +4,13 @@ import { FormGetCourse } from "./FormGetCourse";
 export const Slide7 = () => {
     return (
         <section className="relative py-5 text-center">
-            <div className=" bg-shading mb-5">
+            <div className=" bg-shading mb-5 w-[100vw]">
                 <Image
                     src="/bgSlide7.png"
                     alt="Background image"
                     width={1908}
                     height={464}
-                    className="relative z-[-1] min-h-[220px] w-auto object-left-top object-cover"
+                    className="relative z-[-1] min-h-[220px] w-full object-left-top object-cover"
                 />
             </div>
             <div className="px-5 max-w-[500px] mx-auto">
