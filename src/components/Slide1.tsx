@@ -8,8 +8,8 @@ export const Slide1 = () => {
                 <h1 className="font-notoDisplay text-3xl text-secondary mb-4">
                     Сам собі монтажер!
                 </h1>
-                <div className="flex mb-4">
-                    <h2 className="font-notoDisplay text-2xl font-light my-auto ">
+                <div className="flex justify-center gap-3 mb-4">
+                    <h2 className="font-notoDisplay text-2xl font-light my-auto max-w-[230px]">
                         Від аматора до професіонала
                     </h2>
 
