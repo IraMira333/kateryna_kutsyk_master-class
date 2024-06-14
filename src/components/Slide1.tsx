@@ -3,7 +3,7 @@ import { FormGetCourse } from "./FormGetCourse";
 
 export const Slide1 = () => {
     return (
-        <section className="p-5 text-center">
+        <section className="p-5 pt-[60px] text-center">
             <div className="max-w-[500px] mx-auto">
                 <h1 className="font-notoDisplay text-3xl text-secondary mb-4">
                     Сам собі монтажер!
@@ -32,7 +32,7 @@ export const Slide1 = () => {
                     Наш 2-тижневий курс з відіомотажу відкриє перед вами двері
                     до захоплюючого світу творчості та можливостей.
                 </p>
-                <div className="bg-accentBg rounded shadow-md text-center p-3 mb-5 max-w-[400px] mx-auto">
+                <div className="bg-accentBg rounded shadow-md text-center p-3 mb-9 max-w-[400px] mx-auto">
                     <p className="text-xs text-darkText font-semibold mb-3">
                         Заповніть форму та отримай доступ до 2-тижневого курсу
                         відеомонтажу за спеціальною ціною
@@ -56,7 +56,7 @@ export const Slide1 = () => {
                 </div>
 
                 <div className="text-left leading-5 font-noto font-light">
-                    <div className="flex gap-4 mb-1">
+                    <div className="flex gap-6 mb-1">
                         <Image
                             src="/cameraLeftBig.png"
                             alt="Picture of camera"
@@ -64,7 +64,7 @@ export const Slide1 = () => {
                             height={882}
                             className="w-[25%] h-auto"
                         />
-                        <p className="indent-6 text-justify">
+                        <p className="indent-6 text-justify my-auto">
                             Всього за 2 тижні ви отримаєте навички роботи з
                             безкоштовною монтажною програмою VN. Навчитись
                             ефективно монтувати відео, додавати музику та текст,
