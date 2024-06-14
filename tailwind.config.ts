@@ -31,6 +31,10 @@ const config: Config = {
                 disc: "disc",
             },
         },
+        backgroundImage: {
+            coursesGradient:
+                "linear-gradient(45deg, #1d1e21 0%, #535860 50%, #444141 100%)",
+        },
     },
     plugins: [],
 };
