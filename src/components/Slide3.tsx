@@ -2,6 +2,7 @@ export const Slide3 = () => {
     return (
         <section className="p-5 text-justify">
             <div className="max-w-[500px] mx-auto">
+                <div></div>
                 <h2 className="italic text-lg text-center mb-5">
                     Вітаю! Я, Катерина Носатюк,
                 </h2>

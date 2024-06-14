@@ -13,7 +13,7 @@ export const Slide7 = () => {
                     className="relative z-[-1] min-h-[220px] w-full object-left-top object-cover"
                 />
             </div>
-            <div className="px-5 max-w-[500px] mx-auto">
+            <div className="px-5 max-w-[500px] mx-auto mb-12">
                 <div className="absolute top-12 left-1/2 transform -translate-x-1/2 w-full max-w-[95%] ">
                     <h2 className="  uppercase font-notoDisplay text-3xl text-center">
                         ВСТИГНИ ВЗЯТИ УЧАСТЬ!

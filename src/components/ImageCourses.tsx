@@ -2,13 +2,12 @@ import Image from "next/image";
 
 export const ImageCourses = ({ src }: { src: string }) => {
     return (
-        <div className="bg-shading">
+        <div className="absolute inset-0">
             <Image
                 src={src}
                 alt="background picture"
-                width={305}
-                height={380}
-                className="relative z-[-1] w-full max-h-[385px] object-cover"
+                fill
+                className=" object-cover"
             />
         </div>
     );
