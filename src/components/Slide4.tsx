@@ -201,7 +201,7 @@ export const Slide4 = () => {
                         </div>
 
                         <p className="text-center">
-                            Зйомка та монтаж відео з роздвоенням людини.
+                            Зйомка та монтаж відео з роздвоєнням людини.
                         </p>
                         <p className="text-center">Покрокова інструкція.</p>
                     </li>
