@@ -47,6 +47,15 @@ export default function RootLayout({
             className={`${noto.variable} ${notoDisplay.variable} ${openSans.variable} ${montserrat.variable}`}
             lang="ua"
         >
+            <head>
+                <link rel="icon" href="/favicon.png" sizes="any" />
+                <meta
+                    name="image"
+                    property="og:image"
+                    content="/imageForSharing.jpg"
+                />
+                <meta name="twitter:image" content="/imageForSharing.jpg" />
+            </head>
             <body>
                 <main>{children}</main>
             </body>
