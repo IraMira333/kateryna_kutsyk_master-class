@@ -6,6 +6,8 @@ import {
     Montserrat,
 } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/Header/Header";
+import { Footer } from "@/components/Footer/footer";
 
 const noto = Noto_Serif({
     subsets: ["latin"],
@@ -57,7 +59,9 @@ export default function RootLayout({
                 <meta name="twitter:image" content="/imageForSharing.jpg" />
             </head>
             <body>
+                <Header />
                 <main>{children}</main>
+                <Footer />
             </body>
         </html>
     );
