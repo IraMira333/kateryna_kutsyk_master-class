@@ -1,3 +1,5 @@
+import { PolicyTerms } from "@/components/Policy/Policy";
+
 export default function Policy() {
-    return <div>Політика конфіденційності</div>;
+    return <PolicyTerms />;
 }
