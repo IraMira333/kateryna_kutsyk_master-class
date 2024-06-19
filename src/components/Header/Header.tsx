@@ -8,8 +8,8 @@ export const Header = () => {
                 <Image
                     src="/bgHeader.png"
                     alt="Background image"
-                    width={1908}
-                    height={464}
+                    width={477}
+                    height={116}
                     priority
                     className="relative z-[-1] h-[80px] w-full object-left-top object-cover"
                 />
