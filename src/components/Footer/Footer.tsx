@@ -21,7 +21,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div className=" underline mb-2 active:text-accentText transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
-                <a>Публічний договор навчання</a>
+                <a href="/offer">Публічна оферта</a>
             </div>
             <div className=" underline active:text-accentText transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
                 <a href="/terms">
