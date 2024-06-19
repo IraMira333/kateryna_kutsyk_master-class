@@ -7,7 +7,7 @@ import {
 } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header/Header";
-import { Footer } from "@/components/Footer/footer";
+import { Footer } from "@/components/Footer/Footer";
 
 const noto = Noto_Serif({
     subsets: ["latin"],
