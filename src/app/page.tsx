@@ -1,3 +1,4 @@
+import { CookiesComponent } from "@/components/CookiesComponent/CookiesComponent";
 import { Slide1 } from "@/components/Slide1/Slide1";
 import { Slide2 } from "@/components/Slide2/Slide2";
 import { Slide3 } from "@/components/Slide3/Slide3";
@@ -16,6 +17,7 @@ export default function Home() {
             <Slide5 />
             <Slide6 />
             <Slide7 />
+            <CookiesComponent />
         </>
     );
 }
