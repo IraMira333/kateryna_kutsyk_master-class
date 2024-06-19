@@ -15,8 +15,8 @@ export const Footer = () => {
                     </a>
                 </div>
                 <div className=" active:text-accentText transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
-                    <a href="mailto:kate.kutsyk@gmail.com" className="">
-                        kate.kutsyk@gmail.com
+                    <a href="mailto:katerynanosatuyk@gmail.com" className="">
+                        katerynanosatuyk@gmail.com
                     </a>
                 </div>
             </div>
