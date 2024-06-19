@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FormGetCourse } from "./FormGetCourse";
+import { FormGetCourse } from "../shared/FormGetCourse";
 
 export const Slide7 = () => {
     return (

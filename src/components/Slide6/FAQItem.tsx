@@ -1,4 +1,4 @@
-import { IconReel } from "./IconReel";
+import { IconReel } from "../shared/IconReel";
 
 type FAQDataItemType = {
     question: string;

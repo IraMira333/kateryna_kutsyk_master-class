@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { FAQItem } from "./FAQItem";
 import { FAQData } from "@/mockedData/FAQData";
+import { FAQItem } from "./FAQItem";
 
 export const Slide6 = () => {
     return (
