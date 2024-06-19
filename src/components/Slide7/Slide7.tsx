@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { FormGetCourse } from "../shared/FormGetCourse";
 
 export const Slide7 = () => {
