@@ -3,7 +3,7 @@ import { FormGetCourse } from "../shared/FormGetCourse";
 
 export const Slide1 = () => {
     return (
-        <section className="p-5 pt-[60px] text-center">
+        <section className="p-5 pt-[130px] text-center">
             <div className="max-w-[500px] mx-auto">
                 <h1 className="font-notoDisplay text-3xl text-secondary mb-4">
                     Сам собі монтажер!
