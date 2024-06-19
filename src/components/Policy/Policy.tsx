@@ -1,4 +1,4 @@
-export const PolicyTerms = () => {
+const PolicyTerms = () => {
     return (
         <section className="p-5 pt-[110px] ">
             <div className="max-w-[500px] mx-auto">
@@ -158,3 +158,4 @@ export const PolicyTerms = () => {
         </section>
     );
 };
+export default PolicyTerms;
