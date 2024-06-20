@@ -23,6 +23,7 @@ export const Header = () => {
                             width={238}
                             height={216}
                             className="w-[70px] h-auto"
+                            priority
                         />
                     </Link>
                     <div className=" my-auto">
