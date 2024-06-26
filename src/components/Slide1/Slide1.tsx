@@ -33,7 +33,7 @@ export const Slide1 = () => {
                     до захоплюючого світу творчості та можливостей.
                 </p>
                 <div className="bg-accentBg rounded shadow-md text-center p-3 mb-9 max-w-[400px] mx-auto">
-                    <p className="text-xs text-darkText font-semibold mb-3">
+                    <p className=" text-darkText font-semibold mb-3">
                         Заповніть форму та отримай доступ до 2-тижневого курсу
                         відеомонтажу за спеціальною ціною
                     </p>
