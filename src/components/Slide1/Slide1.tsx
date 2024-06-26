@@ -37,9 +37,7 @@ export const Slide1 = () => {
                         Заповніть форму та отримай доступ до 2-тижневого курсу
                         відеомонтажу за спеціальною ціною
                     </p>
-                    <h3 className="text-darkText text-base uppercase font-bold">
-                        дата старту курсу 13 червня
-                    </h3>
+
                     <p className="text-darkText">
                         {" "}
                         <span className="text-accentText text-base font-bold">
